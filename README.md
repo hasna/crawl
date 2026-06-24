@@ -67,6 +67,9 @@ cloud sync pull --service crawl
 ## Data Directory
 
 Data is stored in `~/.hasna/crawl/`.
+Legacy `~/.crawl` data is copied into the canonical root during startup without
+deleting the legacy source or overwriting existing canonical files.
+Package-specific top-level dotfolders are not supported runtime roots.
 
 ## License
 
