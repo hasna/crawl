@@ -28,8 +28,7 @@
     "dev:cli": "bun run src/cli/index.ts",
     "dev:mcp": "bun run src/mcp/index.ts",
     "dev:serve": "bun run src/server/index.ts",
-    "prepublishOnly": "bun run build",
-    "postinstall": "mkdir -p $HOME/.hasna/crawl $HOME/.hasna/crawl/screenshots 2>/dev/null || true"
+    "prepublishOnly": "bun run build"
   },
   "keywords": [
     "crawler",
